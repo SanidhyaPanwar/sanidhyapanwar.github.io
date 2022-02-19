@@ -24,7 +24,7 @@ const Education = () => {
                         throughout the 4 years of Learning.
                     </p>
                     <br/>
-                    <div className="subtext">Aggregate : <span>(85.60%)</span></div>
+                    <div className="subtext">CGPA : <span>(8.78)</span> | Division Awarded :<span>(I-DIV HONS)</span></div>
                     <a href="https://www.kiet.edu/" target="_blank">Visit College</a>
                 </div>
             </div>
@@ -65,7 +65,7 @@ const Education = () => {
                         throughout my years of Learning.
                     </p>
                     <br/>
-                    <div className="subtext">Aggregate : <span>(91.20%)</span></div>
+                    <div className="subtext">Aggregate : <span>(91.20%)</span> | CGPA : <span>(9.60)</span></div>
                     <a href="https://www.dpsmeerut.in/" target="_blank">Visit School</a></div>
             </div>
         </div>

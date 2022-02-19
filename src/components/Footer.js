@@ -12,7 +12,8 @@ const Footer = () => {
                 <a href="https://github.com/SanidhyaPanwar"><i className="fab fa-github" aria-hidden="true"></i></a>
             </div>
         </span>
-        <span>Created By <a>Sanidhya Panwar</a></span>
+        <span>Created By <a>Sanidhya Panwar</a></span><br/>
+        <h4><span>Switch to <a href="https://github.com/SanidhyaPanwar">Single page version</a></span></h4>
     </footer>
   )
 }

@@ -16,7 +16,7 @@ const About = () => {
                     <p>An incessant learner and A keen observer, Skilled in Computer Science, Web Development and Databases. 
                       Always ready to learn something new and apply it in real life Scenarios. 
                       Open to Opportunities related to Full Stack Web Development and Database Management.</p>
-                    <a href={resume} target="_blank">Open CV</a>
+                    <a href={resume} target="_blank">Download Resume</a>
                 </div>
             </div>
         </div>
