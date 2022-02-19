@@ -4,12 +4,12 @@ import pic2 from '../img/twowaits.png';
 import pic3 from '../img/ieo.jpg';
 import pic4 from '../img/IC-KIET.jpg';
 
-const Expirience = () => {
+const Experience = () => {
 	return (
-		<section className="expirience" id="expirience">
+		<section className="experience" id="experience">
 			<div className="max-width">
-				<h2 className="title">Work Expirience</h2>
-				<div className="expirience-content">
+				<h2 className="title">Work Experience</h2>
+				<div className="experience-content">
 					<div className="column left">
 						<img src={pic1} alt="Profile Pic" />
 					</div>
@@ -39,7 +39,7 @@ const Expirience = () => {
 				<br />
 				<hr />
 				<br />
-				<div className="expirience-content">
+				<div className="experience-content">
 					<div className="column right">
 						<div className="text">
 							Tathastu by TwoWaits <br />
@@ -71,7 +71,7 @@ const Expirience = () => {
 				<br />
 				<hr />
 				<br />
-				<div className="expirience-content">
+				<div className="experience-content">
 					<div className="column left">
 						<img src={pic3} alt="Profile Pic" />
 					</div>
@@ -102,7 +102,7 @@ const Expirience = () => {
 				<br />
 				<hr />
 				<br />
-				<div className="expirience-content">
+				<div className="experience-content">
 					<div className="column right">
 						<div className="text">
 							Innovation Center, KIET Group of Institutions <br />
@@ -135,4 +135,4 @@ const Expirience = () => {
 	);
 };
 
-export default Expirience;
+export default Experience;

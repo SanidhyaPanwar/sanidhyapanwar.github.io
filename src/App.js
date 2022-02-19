@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
-import Expirience from './components/Expirience';
+import Experience from './components/Experience';
 import Education from './components/Education';
 import Interests from './components/Interest';
 import Skills from './components/Skills';
@@ -24,8 +24,8 @@ function App() {
     <Route path="/about">
       <About />
     </Route>
-    <Route path="/expirience">
-      <Expirience />
+    <Route path="/experience">
+      <Experience />
     </Route>
     <Route path="/education">
       <Education />
