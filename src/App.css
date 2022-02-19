@@ -7,6 +7,23 @@
 	box-sizing: border-box;
 	text-decoration: none;
 }
+body {
+	--text-color: #222;
+	--bkg-color: #fff;
+	--anchor-color: #0033cc;
+}
+body.dark-theme {
+	--text-color: #eee;
+	--bkg-color: #121212;
+	--anchor-color: #809fff;
+}
+body {
+	color: var(--text-color);
+	background: var(--bkg-color);
+}
+a {
+	color: var(--anchor-color);
+}
 html {
 	scroll-behavior: smooth;
 }
@@ -173,9 +190,8 @@ section .title::after {
 /* home section styling */
 .home {
 	display: flex;
-	background: url("img/giphy.gif") no-repeat center;
+	background: url("img/bg.jpg") no-repeat center;
 	height: 100vh;
-	color: #fff;
 	min-height: 500px;
 	background-size: cover;
 	background-attachment: fixed;
@@ -380,24 +396,14 @@ section .title::after {
 	background: none;
 }
 
-/* interests section styling */
-.interests,
-.projects {
-	color: #fff;
-	background: #111;
-}
-.interests .title::before,
-.projects .title::before {
-	background: #fff;
-}
 .interests .title::after,
 .projects .title::after {
-	background: #111;
+	/* background: #111; */
 	content: "Things I Love";
 }
 .interests .interest-content .card {
 	width: calc(33% - 20px);
-	background: #222;
+	background: rgb(181, 0, 252, 0.3);
 	text-align: center;
 	border-radius: 6px;
 	padding: 40px 25px;
@@ -405,13 +411,15 @@ section .title::after {
 	transition: all 0.3s ease;
 }
 .interests .interest-content .card:hover {
-	background: rgb(181, 0, 252);
+	background: rgb(181, 0, 252, 0.6);
+	border: #000;
+	border-style: ridge;
 }
 .interests .interest-content .card .box {
 	transition: all 0.3s ease;
 }
 .interests .interest-content .card:hover .box {
-	transform: scale(1.21);
+	transform: scale(1.15);
 }
 .interests .interest-content .card i {
 	font-size: 50px;
@@ -422,7 +430,6 @@ section .title::after {
 	color: #fff;
 }
 .interests .interest-content .card:hover .text {
-	color: #000;
 	font-weight: 600;
 }
 .interests .interest-content .card .text {
@@ -524,7 +531,7 @@ section .title::after {
 	width: calc(33% - 20px);
 	display: inline-table;
 	height: 450px;
-	background: #222;
+	background: rgb(181, 0, 252, 0.3);
 	text-align: center;
 	border-radius: 6px;
 	padding: 40px 50px;
@@ -532,7 +539,9 @@ section .title::after {
 	transition: all 0.3s ease;
 }
 .projects .project-content .card:hover {
-	background: rgb(181, 0, 252);
+	background: rgb(181, 0, 252, 0.6);
+	border: #000;
+	border-style: ridge;
 }
 .projects .project-content .card .box {
 	display: flex;
@@ -546,7 +555,6 @@ section .title::after {
 }
 
 .projects .project-content .card:hover .text {
-	color: #000;
 	font-weight: 600;
 	transform: scale(1.15);
 	transition: all 0.3s ease;

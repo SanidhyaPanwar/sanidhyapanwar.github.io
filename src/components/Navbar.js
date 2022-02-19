@@ -19,6 +19,7 @@ const Navbar = () => {
                 <li><Link to="/skills" className="menu-btn">Skills</Link></li>
                 <li><Link to="/projects" className="menu-btn">Projects</Link></li>
                 <li><Link to="/contact" className="menu-btn">Contact</Link></li>
+                <li><button className="btn-toggle">dark</button></li>
             </ul>
             <div className="menu-btn">
                 <i className="fas fa-bars"></i>

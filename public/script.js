@@ -14,7 +14,12 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
-
+    const btn = document.querySelector(".btn-toggle");
+    // Listen for a click on the button
+    btn.addEventListener("click", function() {
+    // Then toggle (add/remove) the .dark-theme class to the body
+    document.body.classList.toggle("dark-theme");
+    });
     // slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
