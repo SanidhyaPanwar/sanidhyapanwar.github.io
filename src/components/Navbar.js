@@ -10,6 +10,7 @@ const Navbar = () => {
         <nav className="navbar">
         <div className="max-width">
             <div className="logo"><Link to="/"><span>Portfo</span>lio.</Link></div>
+            <span id='clickableAwesomeFont' className="btn-toggle"><i class="fas fa-moon"></i></span>
             <ul className="menu">
                 <li><Link to="/home" className="menu-btn">Home</Link></li>
                 <li><Link to="/about" className="menu-btn">About</Link></li>
@@ -19,7 +20,6 @@ const Navbar = () => {
                 <li><Link to="/skills" className="menu-btn">Skills</Link></li>
                 <li><Link to="/projects" className="menu-btn">Projects</Link></li>
                 <li><Link to="/contact" className="menu-btn">Contact</Link></li>
-                <li><button className="btn-toggle">dark</button></li>
             </ul>
             <div className="menu-btn">
                 <i className="fas fa-bars"></i>
