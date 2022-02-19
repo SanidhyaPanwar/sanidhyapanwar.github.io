@@ -536,6 +536,40 @@ section .title::after {
 	width: 70%;
 }
 
+/* Skill Images */
+.skill-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.skill-content .skilltech {
+	background-color: var(--bkg-color);
+	-webkit-box-shadow: 0 3px 8px 0 rgb(0 0 0 / 30%);
+	box-shadow: 0 3px 8px 0 rgb(0 0 0 / 30%);
+	padding: 1rem;
+	border-radius: 50%;
+	margin: 10px;
+	max-width: 200px;
+	max-height: 200px;
+}
+.skill-content .technology span {
+	box-sizing: border-box;
+	display: block;
+	overflow: hidden;
+	width: initial;
+	height: initial;
+	background: none;
+	opacity: 1;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.skill-content .technology img {
+	max-height: 150px;
+	padding: 10px;
+}
+
 /* projects section styling */
 .projects .title::after {
 	content: "My work";
