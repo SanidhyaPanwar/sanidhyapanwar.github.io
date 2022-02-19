@@ -20,6 +20,14 @@ $(document).ready(function(){
     // Then toggle (add/remove) the .dark-theme class to the body
     document.body.classList.toggle("dark-theme");
     });
+    //dark mode button toggle
+    $("#darkMode").click(function () {
+        $("#darkMode").toggleClass("fa-sun");
+    });
+    // const icon = document.querySelector(".fas fa-home");
+    // icon.addEventListener("click", function() {
+    //     icon.classList.toggle("fas fa-moon");
+    // }
     // slide-up script
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});

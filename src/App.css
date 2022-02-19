@@ -54,19 +54,10 @@ section {
 	padding: 0 80px;
 	margin: auto;
 }
-.max-width button {
-	background: rgb(181, 0, 252);
-	color: #fff;
-	font-size: 20px;
-	font-weight: 500;
-	padding: 10px 30px;
-	margin-top: 20px;
-	border-radius: 6px;
-	border: 2px solid rgb(181, 0, 252);
-	transition: all 0.3s ease;
-}
 #clickableAwesomeFont {
 	cursor: pointer;
+	color: var(--text-color);
+	font-size: 20px;
 }
 .about,
 .experience,

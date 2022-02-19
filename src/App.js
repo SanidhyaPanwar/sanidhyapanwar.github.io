@@ -5,6 +5,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Interests from './components/Interest';
+import Skill from './components/Skill';
 import Skills from './components/Skills';
 import Projects from './components/Project';
 import Contact from './components/Contact';
@@ -32,6 +33,9 @@ function App() {
     </Route>
     <Route path="/interests">
       <Interests />
+    </Route>
+    <Route exact path="/skill">
+      <Skill />
     </Route>
     <Route path="/skills">
       <Skills />
