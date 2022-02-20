@@ -1,6 +1,6 @@
 import React from 'react'
 import pic from '../img/profile-1.jpeg'
-import resume from '../files/Sanidhya CV(Photo).pdf'
+import resume from '../files/SanidhyaResumeFebruary2022.pdf'
 
 const About = () => {
   return (

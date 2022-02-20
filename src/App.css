@@ -57,7 +57,7 @@ section {
 #clickableAwesomeFont {
 	cursor: pointer;
 	color: var(--text-color);
-	font-size: 20px;
+	font-size: 30px;
 }
 .about,
 .experience,
@@ -587,7 +587,7 @@ section .projectTitle {
 	margin: 10px;
 	width: calc(33% - 20px);
 	display: inline-table;
-	height: 450px;
+	height: 465px;
 	background: rgb(181, 0, 252, 0.3);
 	text-align: center;
 	border-radius: 6px;

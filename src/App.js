@@ -11,6 +11,11 @@ import Projects from './components/Project';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import OsiFarming from './components/project/OsiFarming';
+import Verizon from './components/project/Verizon';
+import Indrapal from './components/project/Indrapal';
+import SanidhyaInsta from './components/project/SanidhyaInsta';
+import Covid from './components/project/Covid';
+import BreakingBad from './components/project/BreakingBad';
 import {BrowserRouter,Route} from 'react-router-dom'
 
 function App() {
@@ -48,8 +53,23 @@ function App() {
       <Contact />
     </Route>
     {/* Project routing start */}
+    <Route path="/project/verizon">
+      <Verizon />
+    </Route>
     <Route path="/project/osi-farming">
       <OsiFarming />
+    </Route>
+    <Route path="/project/sanidhya-insta">
+      <SanidhyaInsta />
+    </Route>
+    <Route path="/project/breaking-bad">
+      <BreakingBad />
+    </Route>
+    <Route path="/project/indrapal">
+      <Indrapal />
+    </Route>
+    <Route path="/project/covid">
+      <Covid />
     </Route>
     <Footer/>
   </BrowserRouter>
