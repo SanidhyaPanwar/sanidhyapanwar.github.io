@@ -109,6 +109,16 @@ section .title::after {
 	background: #fff;
 	transform: translateX(-50%);
 }
+section .projectTitle {
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	border-bottom: 2px solid rgb(181, 0, 252);
+}
 
 /* navbar styling */
 .navbar {
@@ -596,8 +606,25 @@ section .title::after {
 	justify-content: center;
 	transition: all 0.3s ease;
 }
-.projects .project-content .card:hover .box {
-	transform: scale(1.15);
+.projects .project-content .card .box .projectLinks {
+	margin-top: 25px;
+	display: flex;
+}
+.projects .project-content .card .box a {
+	background: rgb(181, 0, 252);
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+	padding: 10px 10px;
+	margin: 10px 8px;
+	border-radius: 6px;
+	border: 2px solid rgb(181, 0, 252);
+	transition: all 0.3s ease;
+}
+.projects .project-content .card .box img:hover,
+.projects .project-content .card .box .projectLinks .link1:hover,
+.projects .project-content .card .box .projectLinks .link2:hover {
+	transform: scale(1.20);
 }
 
 .projects .project-content .card:hover .text {
@@ -618,6 +645,10 @@ section .title::after {
 	border-radius: 50%;
 	border: 5px solid rgb(181, 0, 252);
 	transition: all 0.3s ease;
+}
+.projects .project-content .card:hover .box a,
+.projects .project-content .card:hover .box a {
+	border: 2px solid #000;
 }
 .projects .project-content .card:hover img {
 	border-color: #000;

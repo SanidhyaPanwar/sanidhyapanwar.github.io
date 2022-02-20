@@ -10,6 +10,7 @@ import Skills from './components/Skills';
 import Projects from './components/Project';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import OsiFarming from './components/project/OsiFarming';
 import {BrowserRouter,Route} from 'react-router-dom'
 
 function App() {
@@ -45,6 +46,10 @@ function App() {
     </Route>
     <Route path="/contact">
       <Contact />
+    </Route>
+    {/* Project routing start */}
+    <Route path="/project/osi-farming">
+      <OsiFarming />
     </Route>
     <Footer/>
   </BrowserRouter>
