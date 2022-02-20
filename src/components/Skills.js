@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 
 const Skills = () => {
     return (
@@ -13,7 +14,7 @@ const Skills = () => {
                                 <br />
                                 I always try to learn something new and try it out with practical implementation through Projects.
                             </p>
-                            <a href="/skill">Technologies Known</a>
+                            <Link to="/skill">Technologies Known</Link>
                         </div>
                         <div className="column right">
                             <div className="bars">
@@ -86,7 +87,7 @@ const Skills = () => {
                                 <br />
                                 To implement my Knowledge of Back End Development , I have developed some major projects like OSI Farming Equipment on Rent , Instagram Clone.
                             </p>
-                            <a href="https://www.linkedin.com/in/sanidhya-panwar-824504180/">Go to my LinkedIn</a>
+                            <Link to="https://www.linkedin.com/in/sanidhya-panwar-824504180/">Go to my LinkedIn</Link>
                         </div>
                     </div>
                 </div>

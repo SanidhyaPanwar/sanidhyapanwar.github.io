@@ -421,7 +421,6 @@ section .title::after {
 	text-align: center;
 	border-radius: 6px;
 	padding: 40px 25px;
-	cursor: pointer;
 	transition: all 0.3s ease;
 }
 .interests .interest-content .card:hover {
@@ -583,7 +582,6 @@ section .title::after {
 	text-align: center;
 	border-radius: 6px;
 	padding: 40px 50px;
-	cursor: pointer;
 	transition: all 0.3s ease;
 }
 .projects .project-content .card:hover {

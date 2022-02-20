@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -6,14 +7,14 @@ const Footer = () => {
             <span>Come Hang out with me!</span>  
             <span>
             <div className="social">
-                <a href="https://twitter.com/sanidhya_panwar"><i className="fab fa-twitter" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com/sanidhya_panwar/"><i className="fab fa-instagram" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/sanidhya-panwar-824504180/"><i className="fab fa-linkedin" aria-hidden="true"></i></a>
-                <a href="https://github.com/SanidhyaPanwar"><i className="fab fa-github" aria-hidden="true"></i></a>
+                <Link to="https://twitter.com/sanidhya_panwar"><i className="fab fa-twitter" aria-hidden="true"></i></Link>
+                <Link to="https://www.instagram.com/sanidhya_panwar/"><i className="fab fa-instagram" aria-hidden="true"></i></Link>
+                <Link to="https://www.linkedin.com/in/sanidhya-panwar-824504180/"><i className="fab fa-linkedin" aria-hidden="true"></i></Link>
+                <Link to="https://github.com/SanidhyaPanwar"><i className="fab fa-github" aria-hidden="true"></i></Link>
             </div>
         </span>
         <span>Created By <a>Sanidhya Panwar</a></span><br/>
-        <h4><span>Switch to <a href="https://sanidhyaportfolio.herokuapp.com/">Single page version</a></span></h4>
+        <h4><span>Switch to <Link to="https://sanidhyaportfolio.herokuapp.com/">Single page version</Link></span></h4>
     </footer>
   )
 }
