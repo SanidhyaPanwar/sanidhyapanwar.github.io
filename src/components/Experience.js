@@ -32,9 +32,9 @@ const Experience = () => {
 							<li>Developed and Deployed changes as per requirement of Product Owner with accuracy</li>
 							<li>Tested software for bugs, ﬁxed them along with documentation to increase clarity</li>
 						</ul>
-						<Link to="https://www.tcs.com/" target="_blank">
+						<a href="https://www.tcs.com/" target="_blank">
 							Visit Company
-						</Link>
+						</a>
 					</div>
 				</div>
 				<br />
@@ -61,9 +61,9 @@ const Experience = () => {
 							<li>Provided additional free sessions on Git, GitHub, Heroku, etc.</li>
 							<li>Guided students with their ﬁnal year projects</li>
 						</ul>
-						<Link to="http://tathastu.twowaits.in/" target="_blank">
+						<a href="http://tathastu.twowaits.in/" target="_blank">
 							Visit Company
-							</Link>
+							</a>
 					</div>
 					<div className="column left">
 						<img src={pic2} alt="Profile Pic" className="image-right" />
@@ -95,9 +95,9 @@ const Experience = () => {
 								website even after the internship was over
 							</li>
 						</ul>
-						<Link to="http://innovatecraft.com/" target="_blank">
+						<a href="http://innovatecraft.com/" target="_blank">
 							Visit Company
-							</Link>
+							</a>
 					</div>
 				</div>
 				<br />
@@ -123,9 +123,9 @@ const Experience = () => {
 							<li>Provided additional sessions on Git, GitHub, Heroku, etc.</li>
 							<li>Guided students in choosing the correct career path for them</li>
 						</ul>
-						<Link to="https://www.kiet.edu/innovation-center" target="_blank">
+						<a href="https://www.kiet.edu/innovation-center" target="_blank">
 							Visit Company
-							</Link>
+							</a>
 					</div>
 					<div className="column left">
 						<img src={pic4} alt="Profile Pic" className="image-right" />

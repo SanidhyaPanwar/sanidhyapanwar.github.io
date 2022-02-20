@@ -87,7 +87,7 @@ const Skills = () => {
                                 <br />
                                 To implement my Knowledge of Back End Development , I have developed some major projects like OSI Farming Equipment on Rent , Instagram Clone.
                             </p>
-                            <Link to="https://www.linkedin.com/in/sanidhya-panwar-824504180/">Go to my LinkedIn</Link>
+                            <a href="https://www.linkedin.com/in/sanidhya-panwar-824504180/">Go to my LinkedIn</a>
                         </div>
                     </div>
                 </div>

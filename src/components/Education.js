@@ -26,7 +26,7 @@ const Education = () => {
                     </p>
                     <br/>
                     <div className="subtext">CGPA : <span>(8.78)</span> | Division Awarded :<span>(I-DIV HONS)</span></div>
-                    <Link to="https://www.kiet.edu/" target="_blank">Visit College</Link>
+                    <a href="https://www.kiet.edu/" target="_blank">Visit College</a>
                 </div>
             </div>
             <br/><hr/><br/>
@@ -44,7 +44,7 @@ const Education = () => {
                     </p>
                     <br/>
                     <div className="subtext">Aggregate : <span>(83.80%)</span></div>
-                    <Link to="https://www.dpsmeerut.in/" target="_blank">Visit School</Link></div>
+                    <a href="https://www.dpsmeerut.in/" target="_blank">Visit School</a></div>
                 <div className="column left">
                 <img src={pic2} alt='Profile Pic' className="image-right"/>
                 </div>
@@ -67,7 +67,7 @@ const Education = () => {
                     </p>
                     <br/>
                     <div className="subtext">Aggregate : <span>(91.20%)</span> | CGPA : <span>(9.60)</span></div>
-                    <Link to="https://www.dpsmeerut.in/" target="_blank">Visit School</Link></div>
+                    <a href="https://www.dpsmeerut.in/" target="_blank">Visit School</a></div>
             </div>
         </div>
     </section>
