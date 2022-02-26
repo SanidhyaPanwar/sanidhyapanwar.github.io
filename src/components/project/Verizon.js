@@ -42,7 +42,7 @@ const Verizon = () => {
 							</span>
 						</div>
 						<ul>
-							<li>Providing a seamless expirience to book Verizon's Fiber Connection for end user</li>
+							<li>Providing a seamless experience to book Verizon's Fiber Connection for end user</li>
 							<li>Worked with product managers to re-architect a multi-page web app into a single page web-app</li>
 							<li>Got to experience working in Agile mode</li>
 							<li>Collaborated with 30+ colleagues On-Shore as well as Off-Shore locations</li>

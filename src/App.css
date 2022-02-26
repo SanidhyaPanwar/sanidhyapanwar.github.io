@@ -431,6 +431,7 @@ section .projectTitle {
 	text-align: center;
 	border-radius: 6px;
 	padding: 40px 25px;
+	margin: 10px;
 	transition: all 0.3s ease;
 }
 .interests .interest-content .card:hover {
@@ -527,10 +528,10 @@ section .projectTitle {
 	width: 85%;
 }
 .skills-content .right .js::before {
-	width: 70%;
+	width: 75%;
 }
 .skills-content .right .react::before {
-	width: 75%;
+	width: 85%;
 }
 .skills-content .right .node::before {
 	width: 75%;
@@ -542,7 +543,7 @@ section .projectTitle {
 	width: 80%;
 }
 .skills-content .right .mysql::before {
-	width: 70%;
+	width: 75%;
 }
 
 /* Skill Images */

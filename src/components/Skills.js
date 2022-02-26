@@ -34,14 +34,14 @@ const Skills = () => {
                             <div className="bars">
                                 <div className="info">
                                     <span>JavaScript</span>
-                                    <span>70%</span>
+                                    <span>75%</span>
                                 </div>
                                 <div className="line js"></div>
                             </div>
                             <div className="bars">
                                 <div className="info">
                                     <span>React.JS</span>
-                                    <span>75%</span>
+                                    <span>85%</span>
                                 </div>
                                 <div className="line react"></div>
                             </div>
@@ -76,7 +76,7 @@ const Skills = () => {
                             <div className="bars">
                                 <div className="info">
                                     <span>MySQL</span>
-                                    <span>70%</span>
+                                    <span>75%</span>
                                 </div>
                                 <div className="line mysql"></div>
                             </div>

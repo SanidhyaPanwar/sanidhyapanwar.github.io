@@ -33,9 +33,6 @@ const Interests = () => {
                         </p>
                             </div>
                         </div>
-                    </div>
-                    <br/>
-                    <div className="interest-content">
                         <div className="card">
                             <div className="box">
                             <i class="fas fa-laptop-code"></i>
