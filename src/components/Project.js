@@ -18,7 +18,8 @@ const Projects = () => {
 							<img src={pic1} alt="SaaS" />
 							<div className="text">Verizon OneFiber</div>
 							<p>
-                            It combined all of the telco's fiber needs and planning into one project and is used by customers to access the 5G Network in all the Sectors
+								It rolled up all of the telco's fibre requirements and plans into one project, which
+								consumers may utilise to connect to the 5G network across all sectors.
 							</p>
 							<div className="projectLinks">
 								<div className="link1">
@@ -35,8 +36,8 @@ const Projects = () => {
 							<img src={pic2} alt="" />
 							<div className="text">OSI Farming</div>
 							<p>
-								A Website to get Farming Equipments on Rent for the poor farmers who cannot afford to
-								buy the Equipments for themselves.
+								It is a NodeJS based website that rents out farm equipment to poor farmers who can't afford to buy their
+								own.
 							</p>
 							<div className="projectLinks">
 								<div className="link1">
@@ -55,8 +56,8 @@ const Projects = () => {
 							<img src={pic3} alt="" />
 							<div className="text">Sanidhya Insta</div>
 							<p>
-								A simple Instagram clone based on MERN Stack. It has features like Password reset ,
-								follow , unfollow , like comment and much more!
+								It is based on MERN Stack and contains functions such as
+								password reset, following, unfollowing, liking, and commenting, among others.
 							</p>
 							<div className="projectLinks">
 								<div className="link1">
@@ -75,8 +76,8 @@ const Projects = () => {
 							<img src={pic4} alt="" />
 							<div className="text">Panwar Clinic</div>
 							<p>
-								A Website for my Father (Dr.Indra Pal Singh) & the services offered at his clinic. I put
-								my web development skills to practical use.
+								A website for my father's (Dr.Indra Pal Singh) clinic and the services he provides. My
+								site building abilities were put to good use.
 							</p>
 							<div className="projectLinks">
 								<div className="link1">
@@ -95,8 +96,8 @@ const Projects = () => {
 							<img src={pic5} alt="" />
 							<div className="text">Breaking Bad Wiki</div>
 							<p>
-								A Website to get a list of characters and their details from the popular show Breaking
-								Bad by using their public API.
+								Using their public API, a website can acquire a list of characters and their details
+								from the hit show Breaking Bad.
 							</p>
 							<div className="projectLinks">
 								<div className="link1">
@@ -115,8 +116,8 @@ const Projects = () => {
 							<img src={pic6} alt="" />
 							<div className="text">Covid-19 Tracker</div>
 							<p>
-								A simple covid-19 tracker website using public API to fetch the details of covid-19 by
-								country.
+								A simple covid-19 tracker website that uses a public API to retrieve covid-19
+								informationfor different countries.
 							</p>
 							<div className="projectLinks">
 								<div className="link1">

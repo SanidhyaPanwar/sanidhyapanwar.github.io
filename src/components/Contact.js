@@ -38,7 +38,7 @@ const Contact = () => {
                 <div className="column right">
                     <div className="text">
                         <q>
-                            Showcasing your talent in the form of working projects is much better than adding just another certification in your resume.
+                            Showcasing your talent through working projects is far better than adding just another certification in your resume.
                         </q>
                         <br/>
                     </div>

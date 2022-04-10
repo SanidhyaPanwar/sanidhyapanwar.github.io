@@ -939,3 +939,29 @@ footer span .social a:nth-child(4):hover {
 		line-height: 38px;
 	}
 }
+
+@media (max-width: 400px) {
+	.projects .project-content .card .box .projectLinks {
+		display: block;
+	}
+	.projects .project-content .card .box .projectLinks .link2 {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (min-width: 690px) and (max-width: 830px) {
+	.projects .project-content .card .box .projectLinks {
+		display: block;
+	}
+	.projects .project-content .card .box .projectLinks .link2 {
+		margin-top: 30px;
+	}
+}
+@media screen and (min-width: 948px) and (max-width: 1300px) {
+	.projects .project-content .card .box .projectLinks {
+		display: block;
+	}
+	.projects .project-content .card .box .projectLinks .link2 {
+		margin-top: 30px;
+	}
+}
