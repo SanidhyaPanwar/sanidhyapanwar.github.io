@@ -1,8 +1,9 @@
 import React from 'react';
-import pic1 from '../img/tcs.jpg';
-import pic2 from '../img/twowaits.png';
-import pic3 from '../img/ieo.jpg';
-import pic4 from '../img/IC-KIET.jpg';
+import pic1 from '../img/barclaysLogo.png';
+import pic2 from '../img/tcs.jpg';
+import pic3 from '../img/twowaits.png';
+import pic4 from '../img/ieo.jpg';
+import pic5 from '../img/IC-KIET.jpg';
 
 const Experience = () => {
 	return (
@@ -10,15 +11,41 @@ const Experience = () => {
 			<div className="max-width">
 				<h2 className="title">Work Experience</h2>
 				<div className="experience-content">
+					<div className="column right">
+						<div className="text">
+							Barclays Global Service Center <br />
+							<span>(Java Developer - Customer Digital and Data)</span>
+							<br />
+							<h4>Pune | August 2022 - Present</h4>
+						</div>
+						<ul>
+							<li>Working as a Java Developer</li>
+							<li>Collaborated with a Team of 12 Members</li>
+							<li>Working on scalability of Data Tools within Digital Team</li>
+							<li>Working with AWS pipelines</li>
+							<li>Acting as interface between 16 teams interacting with our system</li>
+						</ul>
+						<a href="https://www.barclays.in/global-service-centre/btci/" target="_blank">
+							Visit Company
+						</a>
+					</div>
 					<div className="column left">
-						<img src={pic1} alt="Profile Pic" />
+						<img src={pic1} alt="Profile Pic" className="image-right"/>
+					</div>
+				</div>
+				<br />
+				<hr />
+				<br />
+				<div className="experience-content">
+					<div className="column left">
+						<img src={pic2} alt="Profile Pic" />
 					</div>
 					<div className="column right">
 						<div className="text">
 							TATA Consultancy Services <br />
 							<span>(Systems Engineer - Digital Cadre)</span>
 							<br />
-							<h4>New Delhi | August 2021 - present</h4>
+							<h4>New Delhi | August 2021 - August 2022</h4>
 						</div>
 						<ul>
 							<li>Working as a Full Stack Developer (ReactJS + Java)</li>
@@ -65,7 +92,7 @@ const Experience = () => {
 							</a>
 					</div>
 					<div className="column left">
-						<img src={pic2} alt="Profile Pic" className="image-right" />
+						<img src={pic3} alt="Profile Pic" className="image-right" />
 					</div>
 				</div>
 				<br />
@@ -73,7 +100,7 @@ const Experience = () => {
 				<br />
 				<div className="experience-content">
 					<div className="column left">
-						<img src={pic3} alt="Profile Pic" />
+						<img src={pic4} alt="Profile Pic" />
 					</div>
 					<div className="column right">
 						<div className="text">
@@ -127,7 +154,7 @@ const Experience = () => {
 							</a>
 					</div>
 					<div className="column left">
-						<img src={pic4} alt="Profile Pic" className="image-right" />
+						<img src={pic5} alt="Profile Pic" className="image-right" />
 					</div>
 				</div>
 			</div>
