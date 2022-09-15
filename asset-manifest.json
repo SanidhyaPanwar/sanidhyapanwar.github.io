@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.2955c064.chunk.css",
-    "main.js": "/static/js/main.a96bc1a9.chunk.js",
-    "main.js.map": "/static/js/main.a96bc1a9.chunk.js.map",
+    "main.js": "/static/js/main.94674d36.chunk.js",
+    "main.js.map": "/static/js/main.94674d36.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.54c62d44.js",
     "runtime-main.js.map": "/static/js/runtime-main.54c62d44.js.map",
     "static/js/2.53875da0.chunk.js": "/static/js/2.53875da0.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/2.53875da0.chunk.js.LICENSE.txt": "/static/js/2.53875da0.chunk.js.LICENSE.txt",
     "static/media/IC-KIET.ec0f4f58.jpg": "/static/media/IC-KIET.ec0f4f58.jpg",
     "static/media/Portfolio.c1741377.JPG": "/static/media/Portfolio.c1741377.JPG",
-    "static/media/SanidhyaResumeFebruary2022.f1cc8def.pdf": "/static/media/SanidhyaResumeFebruary2022.f1cc8def.pdf",
+    "static/media/SanidhyaResume.430d8df5.pdf": "/static/media/SanidhyaResume.430d8df5.pdf",
     "static/media/barclaysLogo.b0260f40.png": "/static/media/barclaysLogo.b0260f40.png",
     "static/media/App.css": "/static/media/bg-light.c04759a4.jpg",
     "static/media/bootstrap.600c38fe.png": "/static/media/bootstrap.600c38fe.png",
@@ -66,6 +66,6 @@
     "static/js/runtime-main.54c62d44.js",
     "static/js/2.53875da0.chunk.js",
     "static/css/main.2955c064.chunk.css",
-    "static/js/main.a96bc1a9.chunk.js"
+    "static/js/main.94674d36.chunk.js"
   ]
 }
