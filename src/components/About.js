@@ -1,6 +1,6 @@
 import React from 'react';
 import pic from '../img/profile.png';
-import resume from '../files/SanidhyaResumeFebruary2022.pdf';
+import resume from '../files/SanidhyaResume.pdf';
 
 const About = () => {
 	return (
