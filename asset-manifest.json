@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8e5dbce.chunk.css",
-    "main.js": "/static/js/main.457a378a.chunk.js",
-    "main.js.map": "/static/js/main.457a378a.chunk.js.map",
+    "main.css": "/static/css/main.2955c064.chunk.css",
+    "main.js": "/static/js/main.a96bc1a9.chunk.js",
+    "main.js.map": "/static/js/main.a96bc1a9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.54c62d44.js",
     "runtime-main.js.map": "/static/js/runtime-main.54c62d44.js.map",
     "static/js/2.53875da0.chunk.js": "/static/js/2.53875da0.chunk.js",
     "static/js/2.53875da0.chunk.js.map": "/static/js/2.53875da0.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e8e5dbce.chunk.css.map": "/static/css/main.e8e5dbce.chunk.css.map",
+    "static/css/main.2955c064.chunk.css.map": "/static/css/main.2955c064.chunk.css.map",
     "static/js/2.53875da0.chunk.js.LICENSE.txt": "/static/js/2.53875da0.chunk.js.LICENSE.txt",
     "static/media/IC-KIET.ec0f4f58.jpg": "/static/media/IC-KIET.ec0f4f58.jpg",
     "static/media/Portfolio.c1741377.JPG": "/static/media/Portfolio.c1741377.JPG",
     "static/media/SanidhyaResumeFebruary2022.f1cc8def.pdf": "/static/media/SanidhyaResumeFebruary2022.f1cc8def.pdf",
+    "static/media/barclaysLogo.b0260f40.png": "/static/media/barclaysLogo.b0260f40.png",
     "static/media/App.css": "/static/media/bg-light.c04759a4.jpg",
     "static/media/bootstrap.600c38fe.png": "/static/media/bootstrap.600c38fe.png",
     "static/media/breakingBad.d496937e.jpg": "/static/media/breakingBad.d496937e.jpg",
@@ -46,7 +47,7 @@
     "static/media/osi.9a0197c2.png": "/static/media/osi.9a0197c2.png",
     "static/media/osi.ebbe38f7.png": "/static/media/osi.ebbe38f7.png",
     "static/media/poorFarmer.5fa3be8c.jpg": "/static/media/poorFarmer.5fa3be8c.jpg",
-    "static/media/profile-1.88c7a377.jpeg": "/static/media/profile-1.88c7a377.jpeg",
+    "static/media/profile.c7ecae78.png": "/static/media/profile.c7ecae78.png",
     "static/media/python.7f4ab923.png": "/static/media/python.7f4ab923.png",
     "static/media/react.7b8bd529.png": "/static/media/react.7b8bd529.png",
     "static/media/sanidhyaInsta.c6f2a69f.png": "/static/media/sanidhyaInsta.c6f2a69f.png",
@@ -64,7 +65,7 @@
   "entrypoints": [
     "static/js/runtime-main.54c62d44.js",
     "static/js/2.53875da0.chunk.js",
-    "static/css/main.e8e5dbce.chunk.css",
-    "static/js/main.457a378a.chunk.js"
+    "static/css/main.2955c064.chunk.css",
+    "static/js/main.a96bc1a9.chunk.js"
   ]
 }
