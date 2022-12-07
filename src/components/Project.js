@@ -23,7 +23,7 @@ const Projects = () => {
 							</p>
 							<div className="projectLinks">
 								<div className="link1">
-									<a>NDA Signed</a>
+									<span>NDA Signed</span>
 								</div>
 								<div className="link2">
 									<Link to="/project/verizon">Know More</Link>

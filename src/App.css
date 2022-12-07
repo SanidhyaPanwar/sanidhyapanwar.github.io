@@ -611,7 +611,8 @@ section .projectTitle {
 	margin-top: 25px;
 	display: flex;
 }
-.projects .project-content .card .box a {
+.projects .project-content .card .box a,
+.projects .project-content .card .box span {
 	background: rgb(181, 0, 252);
 	color: #fff;
 	font-size: 15px;
