@@ -41,7 +41,7 @@ const Projects = () => {
 							</p>
 							<div className="projectLinks">
 								<div className="link1">
-									<a href="https://osi-farming.herokuapp.com/" target="_blank">
+									<a href="https://osi-farming.herokuapp.com/" target="_blank" rel="noreferrer">
 										Visit Project
 									</a>
 								</div>
@@ -61,7 +61,7 @@ const Projects = () => {
 							</p>
 							<div className="projectLinks">
 								<div className="link1">
-									<a href="http://sanidhyainsta.herokuapp.com/" target="_blank">
+									<a href="http://sanidhyainsta.herokuapp.com/" target="_blank" rel="noreferrer">
 										Visit Project
 									</a>
 								</div>
@@ -81,7 +81,7 @@ const Projects = () => {
 							</p>
 							<div className="projectLinks">
 								<div className="link1">
-									<a href="http://indrapal.herokuapp.com/" target="_blank">
+									<a href="http://indrapal.herokuapp.com/" target="_blank" rel="noreferrer">
 										Visit Project
 									</a>
 								</div>
@@ -101,7 +101,7 @@ const Projects = () => {
 							</p>
 							<div className="projectLinks">
 								<div className="link1">
-									<a href="http://breakingbadcharacter.herokuapp.com/" target="_blank">
+									<a href="http://breakingbadcharacter.herokuapp.com/" target="_blank" rel="noreferrer">
 										Visit Project
 									</a>
 								</div>
@@ -121,7 +121,7 @@ const Projects = () => {
 							</p>
 							<div className="projectLinks">
 								<div className="link1">
-									<a href="https://sanidhyapanwar.github.io/Covid_Tracker/" target="_blank">
+									<a href="https://sanidhyapanwar.github.io/Covid_Tracker/" target="_blank" rel="noreferrer">
 										Visit Project
 									</a>
 								</div>

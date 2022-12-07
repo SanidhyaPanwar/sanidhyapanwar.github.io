@@ -20,7 +20,7 @@ const About = () => {
 							sharp observer. Always eager to learn something new and put it into practise in real-life
 							situations. Open to Full Stack Web Development and Database Management Opportunities.
 						</p>
-						<a href={resume} target="_blank">
+						<a href={resume} target="_blank" rel="noreferrer">
 							Download Resume
 						</a>
 					</div>

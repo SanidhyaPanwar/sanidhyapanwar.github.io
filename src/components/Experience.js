@@ -25,7 +25,7 @@ const Experience = () => {
 							<li>Working with AWS pipelines</li>
 							<li>Acting as interface between 16 teams interacting with our system</li>
 						</ul>
-						<a href="https://www.barclays.in/global-service-centre/btci/" target="_blank">
+						<a href="https://www.barclays.in/global-service-centre/btci/" target="_blank" rel="noreferrer">
 							Visit Company
 						</a>
 					</div>
@@ -58,7 +58,7 @@ const Experience = () => {
 							<li>Developed and Deployed changes as per requirement of Product Owner with accuracy</li>
 							<li>Tested software for bugs, ﬁxed them along with documentation to increase clarity</li>
 						</ul>
-						<a href="https://www.tcs.com/" target="_blank">
+						<a href="https://www.tcs.com/" target="_blank" rel="noreferrer">
 							Visit Company
 						</a>
 					</div>
@@ -87,7 +87,7 @@ const Experience = () => {
 							<li>Provided additional free sessions on Git, GitHub, Heroku, etc.</li>
 							<li>Guided students with their ﬁnal year projects</li>
 						</ul>
-						<a href="http://tathastu.twowaits.in/" target="_blank">
+						<a href="http://tathastu.twowaits.in/" target="_blank" rel="noreferrer">
 							Visit Company
 							</a>
 					</div>
@@ -121,7 +121,7 @@ const Experience = () => {
 								website even after the internship was over
 							</li>
 						</ul>
-						<a href="http://innovatecraft.com/" target="_blank">
+						<a href="http://innovatecraft.com/" target="_blank" rel="noreferrer">
 							Visit Company
 							</a>
 					</div>
@@ -149,7 +149,7 @@ const Experience = () => {
 							<li>Provided additional sessions on Git, GitHub, Heroku, etc.</li>
 							<li>Guided students in choosing the correct career path for them</li>
 						</ul>
-						<a href="https://www.kiet.edu/innovation-center" target="_blank">
+						<a href="https://www.kiet.edu/innovation-center" target="_blank" rel="noreferrer">
 							Visit Company
 							</a>
 					</div>

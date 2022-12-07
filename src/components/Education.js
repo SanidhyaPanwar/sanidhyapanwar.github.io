@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import pic1 from '../img/kiet.jpg';
 import pic2 from '../img/dps.png';
 import pic3 from '../img/dps.jpg';
@@ -31,7 +30,7 @@ const Education = () => {
 						<div className="subtext">
 							CGPA : <span>(8.78)</span> | Division Awarded :<span>(I-DIV HONS)</span>
 						</div>
-						<a href="https://www.kiet.edu/" target="_blank">
+						<a href="https://www.kiet.edu/" target="_blank" rel="noreferrer">
 							Visit College
 						</a>
 					</div>
@@ -61,7 +60,7 @@ const Education = () => {
 						<div className="subtext">
 							Aggregate : <span>(83.80%)</span>
 						</div>
-						<a href="https://www.dpsmeerut.in/" target="_blank">
+						<a href="https://www.dpsmeerut.in/" target="_blank" rel="noreferrer">
 							Visit School
 						</a>
 					</div>
@@ -97,7 +96,7 @@ const Education = () => {
 						<div className="subtext">
 							Aggregate : <span>(91.20%)</span> | CGPA : <span>(9.60)</span>
 						</div>
-						<a href="https://www.dpsmeerut.in/" target="_blank">
+						<a href="https://www.dpsmeerut.in/" target="_blank" rel="noreferrer">
 							Visit School
 						</a>
 					</div>
