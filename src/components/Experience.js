@@ -19,18 +19,19 @@ const Experience = () => {
 							<h4>Pune | August 2022 - Present</h4>
 						</div>
 						<ul>
-							<li>Working as a Java Developer</li>
-							<li>Collaborated with a Team of 12 Members</li>
-							<li>Working on scalability of Data Tools within Digital Team</li>
-							<li>Working with AWS pipelines</li>
-							<li>Acting as interface between 16 teams interacting with our system</li>
+							<li>Working as a Full Stack Developer (ReactJS, Java Springboot, MySQL, Jenkins, APAAS), Collaborating with a Team of 10 Members and acting as an
+								interface between 20+ teams interacting with our system. </li>
+							<li>Tech Stack : Front End using ReactJS and backend on Java with Springboot
+								with Gradle build script and the Database used is Oracle 19c with MySQL and
+								the bot is deployed on APAAS through Jenkins pipelines built in house.</li>
+							<li>First beta rollout resulted in 50% reduction of manual tickets</li>
 						</ul>
 						<a href="https://www.barclays.in/global-service-centre/btci/" target="_blank" rel="noreferrer">
 							Visit Company
 						</a>
 					</div>
 					<div className="column left">
-						<img src={pic1} alt="Profile Pic" className="image-right"/>
+						<img src={pic1} alt="Profile Pic" className="image-right" />
 					</div>
 				</div>
 				<br />
@@ -89,7 +90,7 @@ const Experience = () => {
 						</ul>
 						<a href="http://tathastu.twowaits.in/" target="_blank" rel="noreferrer">
 							Visit Company
-							</a>
+						</a>
 					</div>
 					<div className="column left">
 						<img src={pic3} alt="Profile Pic" className="image-right" />
@@ -123,7 +124,7 @@ const Experience = () => {
 						</ul>
 						<a href="http://innovatecraft.com/" target="_blank" rel="noreferrer">
 							Visit Company
-							</a>
+						</a>
 					</div>
 				</div>
 				<br />
@@ -151,7 +152,7 @@ const Experience = () => {
 						</ul>
 						<a href="https://www.kiet.edu/innovation-center" target="_blank" rel="noreferrer">
 							Visit Company
-							</a>
+						</a>
 					</div>
 					<div className="column left">
 						<img src={pic5} alt="Profile Pic" className="image-right" />
