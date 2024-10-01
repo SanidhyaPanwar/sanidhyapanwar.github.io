@@ -539,7 +539,7 @@ section .projectTitle {
 .skills-content .right .mongo::before {
 	width: 70%;
 }
-.skills-content .right .mongoose::before {
+.skills-content .right .java::before {
 	width: 80%;
 }
 .skills-content .right .mysql::before {

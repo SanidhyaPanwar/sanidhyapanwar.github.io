@@ -69,10 +69,10 @@ const Skills = () => {
 						</div>
 						<div className="bars">
 							<div className="info">
-								<span>Mongoose</span>
+								<span>java</span>
 								<span>80%</span>
 							</div>
-							<div className="line mongoose" />
+							<div className="line java" />
 						</div>
 						<div className="bars">
 							<div className="info">
