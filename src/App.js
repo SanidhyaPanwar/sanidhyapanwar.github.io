@@ -20,7 +20,7 @@ import {BrowserRouter,Route} from 'react-router-dom'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/sanidhyapanwar.github.io">
     <Navbar/>
     <Route exact path="/" >
       <Home />
