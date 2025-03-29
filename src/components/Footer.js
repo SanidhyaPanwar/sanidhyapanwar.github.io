@@ -13,7 +13,7 @@ const Footer = () => {
             </div>
         </span>
         <span>Created By Sanidhya Panwar</span><br/>
-        <h4><span>Switch to <a href="https://sanidhyaportfolio.herokuapp.com/">Single page version</a></span></h4>
+        {/* <h4><span>Switch to <a href="https://sanidhyaportfolio.herokuapp.com/">Single page version</a></span></h4> */}
     </footer>
   )
 }

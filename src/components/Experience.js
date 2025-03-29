@@ -1,166 +1,187 @@
-import React from 'react';
-import pic1 from '../img/barclaysLogo.png';
-import pic2 from '../img/tcs.jpg';
-import pic3 from '../img/twowaits.png';
-import pic4 from '../img/ieo.jpg';
-import pic5 from '../img/IC-KIET.jpg';
+import React from "react";
+import pic1 from "../img/kotakcherry_logo.jpeg";
+import vid1 from "../img/cherry.mp4";
+import pic2 from "../img/barclaysLogo.png";
+import pic3 from "../img/tcs.jpg";
+import pic4 from "../img/twowaits.png";
+import pic5 from "../img/ieo.jpg";
+import pic6 from "../img/IC-KIET.jpg";
+
+const experiences = [
+  {
+    company: "Kotak Cherry 🍒",
+    role: "Backend Developer",
+    location: "Mumbai (Remote)",
+    duration: "December 2024 - Present",
+    logo: pic1,
+    video: vid1,
+    responsibilities: [
+      "Designed and maintained scalable microservices using Spring Boot.",
+      "Enhanced database efficiency through query optimization and performance tuning in PostgreSQL.",
+      "Implemented Kafka for real-time data streaming and event-driven architecture.",
+      "Collaborated with cross-functional teams to build high-quality, maintainable backend solutions.",
+      "Integrated security best practices to safeguard sensitive data and enhance system integrity.",
+    ],
+    link: "https://www.kotakcherry.com/",
+  },
+  {
+    company: "Barclays Global Service Center",
+    role: "Java Developer - Customer Digital and Data",
+    location: "Pune",
+    duration: "August 2022 - December 2024",
+    logo: pic2,
+    responsibilities: [
+      "Developed full-stack applications using ReactJS, Java Spring Boot, and MySQL.",
+      "Optimized system performance by refactoring legacy code and improving database queries.",
+      "Automated key processes, reducing manual interventions and improving efficiency.",
+      "Led API development and integrations, ensuring seamless connectivity across services.",
+      "Enhanced security layers in the frontend, fixing critical vulnerabilities in the authentication process.",
+    ],
+    link: "https://www.barclays.in/global-service-centre/btci/",
+  },
+  {
+    company: "TATA Consultancy Services",
+    role: "Systems Engineer - Digital Cadre",
+    location: "New Delhi",
+    duration: "August 2021 - August 2022",
+    logo: pic3,
+    responsibilities: [
+      "Developed and maintained web applications using ReactJS and Java.",
+      "Worked closely with product managers to transition a multi-page web app into a single-page application.",
+      "Collaborated with onshore and offshore teams to enhance project efficiency.",
+      "Conducted code reviews and improved software quality by enforcing best practices.",
+      "Implemented CI/CD pipelines using Jenkins, improving deployment speed and reliability.",
+    ],
+    link: "https://www.tcs.com/",
+  },
+  {
+    company: "Tathastu by TwoWaits",
+    role: "Web Development Mentor",
+    location: "Remote",
+    duration: "April 2021 - July 2021",
+    logo: pic4,
+    responsibilities: [
+      "Mentored 100+ students in full-stack web development, focusing on the MERN stack.",
+      "Conducted live coding sessions, hands-on workshops, and project-based learning modules.",
+      "Hosted doubt-clearing sessions and technical webinars for better concept clarity.",
+      "Guided students in building real-world projects and improving their problem-solving skills.",
+      "Provided career advice and helped students with their final-year projects and internships.",
+    ],
+    link: "http://tathastu.twowaits.in/",
+  },
+  {
+    company: "Innovatecraft (IEO MAKERS FABLAB PVT. LTD.)",
+    role: "Full Stack Web Development Intern",
+    location: "Remote",
+    duration: "April 2020 - September 2020",
+    logo: pic5,
+    responsibilities: [
+      "Developed full-stack applications using HTML, CSS, NodeJS, and MongoDB.",
+      "Collaborated with designers and developers to create a user-friendly experience.",
+      "Optimized backend API performance and improved database schema design.",
+      "Worked on deployment strategies to ensure stable and scalable applications.",
+      "Continued supporting and improving the platform after the internship ended.",
+    ],
+    link: "http://innovatecraft.com/",
+  },
+  {
+    company: "Innovation Center, KIET Group of Institutions",
+    role: "Student Teaching Assistant",
+    location: "Ghaziabad",
+    duration: "January 2020 - June 2020",
+    logo: pic6,
+    responsibilities: [
+      "Trained over 75+ first-year students in web development fundamentals.",
+      "Conducted hands-on coding sessions to teach best practices in programming.",
+      "Organized live project demonstrations to provide practical exposure.",
+      "Mentored students in choosing the right career path in software development.",
+      "Assisted in structuring course content and improving the learning experience.",
+    ],
+    link: "https://www.kiet.edu/innovation-center",
+  },
+];
 
 const Experience = () => {
-	return (
-		<section className="experience" id="experience">
-			<div className="max-width">
-				<h2 className="title">Work Experience</h2>
-				<div className="experience-content">
-					<div className="column right">
-						<div className="text">
-							Barclays Global Service Center <br />
-							<span>(Java Developer - Customer Digital and Data)</span>
-							<br />
-							<h4>Pune | August 2022 - Present</h4>
-						</div>
-						<ul>
-							<li>Working as a Full Stack Developer (ReactJS, Java Springboot, MySQL, Jenkins, APAAS), Collaborating with a Team of 10 Members and acting as an
-								interface between 20+ teams interacting with our system. </li>
-							<li>Tech Stack : Front End using ReactJS and backend on Java with Springboot
-								with Gradle build script and the Database used is Oracle 19c with MySQL and
-								the bot is deployed on APAAS through Jenkins pipelines built in house.</li>
-							<li>First beta rollout resulted in 50% reduction of manual tickets</li>
-						</ul>
-						<a href="https://www.barclays.in/global-service-centre/btci/" target="_blank" rel="noreferrer">
-							Visit Company
-						</a>
-					</div>
-					<div className="column left">
-						<img src={pic1} alt="Profile Pic" className="image-right" />
-					</div>
-				</div>
-				<br />
-				<hr />
-				<br />
-				<div className="experience-content">
-					<div className="column left">
-						<img src={pic2} alt="Profile Pic" />
-					</div>
-					<div className="column right">
-						<div className="text">
-							TATA Consultancy Services <br />
-							<span>(Systems Engineer - Digital Cadre)</span>
-							<br />
-							<h4>New Delhi | August 2021 - August 2022</h4>
-						</div>
-						<ul>
-							<li>Working as a Full Stack Developer (ReactJS + Java)</li>
-							<li>Collaborated with 30+ colleagues On-Shore as well as Off-Shore locations</li>
-							<li>Collaborated with an Agile Team of 16 Members</li>
-							<li>
-								Worked with product managers to re-architect a multi-page web app into a single page
-								web-app
-							</li>
-							<li>Developed and Deployed changes as per requirement of Product Owner with accuracy</li>
-							<li>Tested software for bugs, ﬁxed them along with documentation to increase clarity</li>
-						</ul>
-						<a href="https://www.tcs.com/" target="_blank" rel="noreferrer">
-							Visit Company
-						</a>
-					</div>
-				</div>
-				<br />
-				<hr />
-				<br />
-				<div className="experience-content">
-					<div className="column right">
-						<div className="text">
-							Tathastu by TwoWaits <br />
-							<span>(Web Development Mentor)</span>
-							<br />
-							<h4>Remote | April 2021 - July 2021</h4>
-						</div>
-						<ul>
-							<li>
-								Mentored over 100+ students in web development (HTML, CSS, JS and Bootstrap) and MERN
-								stack
-							</li>
-							<li>
-								2 content classes per week with daily doubt clearing sessions and 3 projects per course
-							</li>
-							<li>Trained students in MERN Stack under internship provided by TwoWaits</li>
-							<li>Hosted many free live YouTube sessions weekly on TwoWaits YouTube Channel</li>
-							<li>Provided additional free sessions on Git, GitHub, Heroku, etc.</li>
-							<li>Guided students with their ﬁnal year projects</li>
-						</ul>
-						<a href="http://tathastu.twowaits.in/" target="_blank" rel="noreferrer">
-							Visit Company
-						</a>
-					</div>
-					<div className="column left">
-						<img src={pic3} alt="Profile Pic" className="image-right" />
-					</div>
-				</div>
-				<br />
-				<hr />
-				<br />
-				<div className="experience-content">
-					<div className="column left">
-						<img src={pic4} alt="Profile Pic" />
-					</div>
-					<div className="column right">
-						<div className="text">
-							Innovatecraft (IEO MAKERS FABLAB PVT. LTD.) <br />
-							<span>(Full Stack Web Development Intern)</span>
-							<br />
-							<h4>Remote | April 2020 - September 2020</h4>
-						</div>
-						<ul>
-							<li>Worked as a Full Stack Developer (HTML, CSS, NodeJS, MongoDB)</li>
-							<li>
-								Dedicated 100 Hours Learning based upon Web Development (HTML, CSS, JS, Express,
-								Node.js, MongoDB)
-							</li>
-							<li>Implemented my skills on a project while collaborating in a team.</li>
-							<li>
-								Took the permission of Product Owner and continued to work and add features to the
-								website even after the internship was over
-							</li>
-						</ul>
-						<a href="http://innovatecraft.com/" target="_blank" rel="noreferrer">
-							Visit Company
-						</a>
-					</div>
-				</div>
-				<br />
-				<hr />
-				<br />
-				<div className="experience-content">
-					<div className="column right">
-						<div className="text">
-							Innovation Center, KIET Group of Institutions <br />
-							<span>(Student Teaching Assistant)</span>
-							<br />
-							<h4>Ghaziabad | January 2020 - June 2020</h4>
-						</div>
-						<ul>
-							<li>
-								Responsible for Mentoring and training over 75+ first year students in basics of Web Development (HTML, CSS, JS and Bootstrap)
-							</li>
-							<li>
-								2 classes per week (2 hour theory + 2 hour practical) within academic hours with doubt clearing sessions
-							</li>
-							<li>Trained students in Front-End Web Development under "Additional Skills" Subject added by College to curriculum</li>
-							<li>Hosted many live project demos for practical understanding of students</li>
-							<li>Provided additional sessions on Git, GitHub, Heroku, etc.</li>
-							<li>Guided students in choosing the correct career path for them</li>
-						</ul>
-						<a href="https://www.kiet.edu/innovation-center" target="_blank" rel="noreferrer">
-							Visit Company
-						</a>
-					</div>
-					<div className="column left">
-						<img src={pic5} alt="Profile Pic" className="image-right" />
-					</div>
-				</div>
-			</div>
-		</section>
-	);
+  return (
+    <section className="experience" id="experience">
+      <div className="max-width">
+        <h2 className="title">Work Experience</h2>
+        {experiences.map((exp, index) => (
+          <>
+            <div key={index} className="experience-content">
+              {index % 2 === 0 ? (
+                <>
+                  <div className="column left">
+                    {exp.video ? (
+                      <video autoPlay loop muted className="video-left">
+                        <source src={exp.video} type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    ) : (
+                      <img
+                        src={exp.logo}
+                        alt={`${exp.company} Logo`}
+                        className="image-left"
+                      />
+                    )}
+                  </div>
+                  <div className="column right">
+                    <div className="text">
+                      {exp.company} <br />
+                      <span>({exp.role})</span>
+                      <br />
+                      <h4>
+                        {exp.location} | {exp.duration}
+                      </h4>
+                    </div>
+                    <ul>
+                      {exp.responsibilities.map((task, i) => (
+                        <li key={i}>{task}</li>
+                      ))}
+                    </ul>
+                    <a href={exp.link} target="_blank" rel="noreferrer">
+                      Visit Company
+                    </a>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="column right">
+                    <div className="text">
+                      {exp.company} <br />
+                      <span>({exp.role})</span>
+                      <br />
+                      <h4>
+                        {exp.location} | {exp.duration}
+                      </h4>
+                    </div>
+                    <ul>
+                      {exp.responsibilities.map((task, i) => (
+                        <li key={i}>{task}</li>
+                      ))}
+                    </ul>
+                    <a href={exp.link} target="_blank" rel="noreferrer">
+                      Visit Company
+                    </a>
+                  </div>
+                  <div className="column left">
+                    <img
+                      src={exp.logo}
+                      alt={`${exp.company} Logo`}
+                      className="image-right"
+                    />
+                  </div>
+                </>
+              )}
+            </div>
+            <br />
+            <hr />
+            <br />
+          </>
+        ))}
+      </div>
+    </section>
+  );
 };
 
 export default Experience;

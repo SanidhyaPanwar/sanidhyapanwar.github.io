@@ -1,109 +1,144 @@
-import React from 'react';
-import pic1 from '../img/kiet.jpg';
-import pic2 from '../img/dps.png';
-import pic3 from '../img/dps.jpg';
+import React from "react";
+import pic1 from "../img/kiet.jpg";
+import pic2 from "../img/dps.png";
+import pic3 from "../img/dps.jpg";
+
+const educationData = [
+	{
+	  image: pic1,
+	  title: "Bachelor of Technology",
+	  subtitle: "(CSE)",
+	  description: [
+		"Graduated in August 2021 from KIET Group of Institutions, Ghaziabad (affiliated with Dr. APJ Abdul Kalam Technical University).",
+		"Developed skills in:",
+		"- Competitive coding",
+		"- Full-stack web development",
+		"- Various other technical and problem-solving skills"
+	  ],
+	  details: {
+		"CGPA": "(8.78)",
+		"Division": "(First Division with Honors)"
+	  },
+	  link: "https://www.kiet.edu/",
+	  linkText: "Visit College",
+	  imageRight: false,
+	},
+	{
+	  image: pic2,
+	  title: "Higher Secondary School",
+	  subtitle: "(12th Class)",
+	  description: [
+		"Completed in July 2016 from Delhi Public School, Meerut (affiliated with CBSE).",
+		"Subjects studied:",
+		"- English, Physics, Chemistry, Mathematics",
+		"- Physical Education, Computer Science (C++)",
+		"Key skills gained:",
+		"- Programming in C++",
+		"- Problem-solving and analytical thinking"
+	  ],
+	  details: {
+		"Aggregate": "(83.80%)"
+	  },
+	  link: "https://www.dpsmeerut.in/",
+	  linkText: "Visit School",
+	  imageRight: true,
+	},
+	{
+	  image: pic3,
+	  title: "Senior Secondary School",
+	  subtitle: "(10th Class)",
+	  description: [
+		"Completed in July 2014 from Delhi Public School, Meerut (affiliated with CBSE).",
+		"Subjects studied:",
+		"- English, Mathematics, Science, Hindi",
+		"- Social Studies, Information Technology",
+		"Key skills gained:",
+		"- English communication",
+		"- Basic information technology and computing skills"
+	  ],
+	  details: {
+		"Aggregate": "(91.20%)",
+		"CGPA": "(9.60)"
+	  },
+	  link: "https://www.dpsmeerut.in/",
+	  linkText: "Visit School",
+	  imageRight: false,
+	}
+  ];
+  
 
 const Education = () => {
-	return (
-		<section className="education" id="education">
-			<div className="max-width">
-				<h2 className="title">Education</h2>
-				<div className="education-content">
-					<div className="column left">
-						<img src={pic1} alt="Profile Pic" />
-					</div>
-					<div className="column right">
-						<div className="text">
-							Bachelor of Technology <span>(CSE)</span>
-						</div>
-						<p>
-							In August 2021, I graduated with a Bachelor of Technology in Computer Science and
-							Engineering from the KIET Group of Institutions in Ghaziabad, which is affiliated with Dr.
-							APJ Abdul Kalam Technical University.
-						</p>
-						<br />
-						<p>
-							Throughout my four years of learning, I have acquired a variety of talents such as
-							competetive coding, full stack web development, and many others.
-						</p>
-						<br />
-						<div className="subtext">
-							CGPA : <span>(8.78)</span> | Division Awarded :<span>(I-DIV HONS)</span>
-						</div>
-						<a href="https://www.kiet.edu/" target="_blank" rel="noreferrer">
-							Visit College
-						</a>
-					</div>
-				</div>
-				<br />
-				<hr />
-				<br />
-				<div className="education-content">
-					<div className="column right">
-						<div className="text">
-							Higher Secondary School{' '}
-							<span>
-								(12<sup>th</sup> Class)
-							</span>
-						</div>
-						<p>
-							In July 2016, I graduated from Delhi Public School, Meerut, which is affiliated with the
-							Central Board of Secondary Education, with English, Physics, Chemistry, Mathematics,
-							Physical Education, and Computer Science(C++) as my subjects.
-						</p>
-						<br />
-						<p>
-							Throughout my years of learning, I have mastered a variety of abilities such as programming
-							in C++, Problem Solving and many more.
-						</p>
-						<br />
-						<div className="subtext">
-							Aggregate : <span>(83.80%)</span>
-						</div>
-						<a href="https://www.dpsmeerut.in/" target="_blank" rel="noreferrer">
-							Visit School
-						</a>
-					</div>
-					<div className="column left">
-						<img src={pic2} alt="Profile Pic" className="image-right" />
-					</div>
-				</div>
-				<br />
-				<hr />
-				<br />
-				<div className="education-content">
-					<div className="column left">
-						<img src={pic3} alt="Profile Pic" />
-					</div>
-					<div className="column right">
-						<div className="text">
-							Senior Secondary School{' '}
-							<span>
-								(10<sup>th</sup> Class)
-							</span>
-						</div>
-						<p>
-							In July 2014, I graduated from Delhi Public School, Meerut, which is accredited with the
-							Central Board of Secondary Education, with English, Mathematics, Science, Hindi, Social
-							Studies, and Information Technology as my subjects.
-						</p>
-						<br />
-						<p>
-							Throughout my years of learning, I have mastered a variety of abilities such as English
-							communication, basic information technology, and many more.
-						</p>
-						<br />
-						<div className="subtext">
-							Aggregate : <span>(91.20%)</span> | CGPA : <span>(9.60)</span>
-						</div>
-						<a href="https://www.dpsmeerut.in/" target="_blank" rel="noreferrer">
-							Visit School
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-	);
+  return (
+    <section className="education" id="education">
+      <div className="max-width">
+        <h2 className="title">Education</h2>
+        {educationData.map((edu, index) => (
+          <>
+            <div key={index} className="education-content">
+              {edu.imageRight ? (
+                <>
+                  <div className="column right">
+                    <EducationDetails edu={edu} />
+                  </div>
+                  <div className="column left">
+                    <img
+                      src={edu.image}
+                      alt="Education Pic"
+                      className="image-right"
+                    />
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="column left">
+                    <img src={edu.image} alt="Education Pic" />
+                  </div>
+                  <div className="column right">
+                    <EducationDetails edu={edu} />
+                  </div>
+                </>
+              )}
+            </div>
+            <br />
+            <hr />
+            <br />
+          </>
+        ))}
+      </div>
+    </section>
+  );
 };
+
+const EducationDetails = ({ edu }) => (
+	<>
+	  <div className="text">
+		{edu.title} <span>{edu.subtitle}</span>
+	  </div>
+  
+	  {edu.description.map((para, idx) =>
+		para.startsWith("-") ? (
+		  <ul key={idx}>
+			<li>{para.substring(1).trim()}</li>
+		  </ul>
+		) : (
+		  <p key={idx}>{para}</p>
+		)
+	  )}
+  
+	  <br />
+	  <div className="subtext">
+		{Object.entries(edu.details).map(([key, value], idx) => (
+		  <span key={idx} className="details-item">
+			{key}: <span className="highlight">{value}</span>
+		  </span>
+		))}
+	  </div>
+  
+	  <a href={edu.link} target="_blank" rel="noreferrer">
+		{edu.linkText}
+	  </a>
+	</>
+  );
+	
 
 export default Education;
