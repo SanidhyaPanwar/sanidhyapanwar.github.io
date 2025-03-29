@@ -1,7 +1,8 @@
 <script>
     var pathname = window.location.pathname;
-    if (pathname !== "/") {
-      window.location.replace("/sanidhyapanwar.github.io" + pathname);
+    var newPath = "/sanidhyapanwar.github.io" + pathname;
+    if (!pathname.startsWith("/sanidhyapanwar.github.io/")) {
+      window.location.replace(newPath);
     }
   </script>
   
