@@ -16,12 +16,12 @@ import Indrapal from './components/project/Indrapal';
 import SanidhyaInsta from './components/project/SanidhyaInsta';
 import Covid from './components/project/Covid';
 import BreakingBad from './components/project/BreakingBad';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-<BrowserRouter basename={process.env.PUBLIC_URL}>
-<Navbar />
+    <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -42,7 +42,7 @@ function App() {
         <Route path="/project/covid" element={<Covid />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </Router>
   );
 }
 
