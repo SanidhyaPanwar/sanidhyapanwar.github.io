@@ -1,27 +1,27 @@
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Education from "./components/Education";
-import Interests from "./components/Interest";
-import Skill from "./components/Skill";
-import Skills from "./components/Skills";
-import Projects from "./components/Project";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import OsiFarming from "./components/project/OsiFarming";
-import Verizon from "./components/project/Verizon";
-import Indrapal from "./components/project/Indrapal";
-import SanidhyaInsta from "./components/project/SanidhyaInsta";
-import Covid from "./components/project/Covid";
-import BreakingBad from "./components/project/BreakingBad";
+import './App.css';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Experience from './components/Experience';
+import Education from './components/Education';
+import Interests from './components/Interest';
+import Skill from './components/Skill';
+import Skills from './components/Skills';
+import Projects from './components/Project';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import OsiFarming from './components/project/OsiFarming';
+import Verizon from './components/project/Verizon';
+import Indrapal from './components/project/Indrapal';
+import SanidhyaInsta from './components/project/SanidhyaInsta';
+import Covid from './components/project/Covid';
+import BreakingBad from './components/project/BreakingBad';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename="/">
-      <Navbar />
+<BrowserRouter basename={process.env.PUBLIC_URL}>
+<Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -33,7 +33,6 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-
         {/* Project Routes */}
         <Route path="/project/verizon" element={<Verizon />} />
         <Route path="/project/osi-farming" element={<OsiFarming />} />
@@ -43,7 +42,7 @@ function App() {
         <Route path="/project/covid" element={<Covid />} />
       </Routes>
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
 
